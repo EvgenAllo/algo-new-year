@@ -69,13 +69,13 @@ footer{
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
-    width: 700px;
+    width: 1000px;
     margin: 0 auto;
     background-color: lightblue;
 }
 
 .product {
-    width: 150px;
+    width: 250px;
     text-align: center;
     padding: 10px;
     border: 5px double orange;
@@ -84,7 +84,9 @@ footer{
     background-color: bisque;
     position: relative;
 }
-
+.product img{
+    width: 200px;
+    }
 div{
     text-align: center;
 }
